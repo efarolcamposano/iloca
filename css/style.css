@@ -80,7 +80,7 @@ header {
   width: 100%;
 }
 
-.text__box button {
+.text__box .btn {
     background: #C03B4D;
     color: #fff;
     padding: 8px 20px;

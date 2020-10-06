@@ -1,0 +1,234 @@
+
+body {
+  color: #545454;
+}
+
+.primary__color {
+  color: #C03B4D;
+}
+
+.button {
+  background: #C03B4D;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 4px;
+  outline: none;
+  border: 0;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  transition: .25s ease-out;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.button:active {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+header {
+  background: rgba(17, 18, 48, .9)
+}
+
+.navbar-brand {
+  padding: 15px 0;
+}
+
+.navbar-brand img {
+  max-width: 200px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+}
+
+.hero {
+  position: relative;
+  background: url('../images/hero-img-01.jpg') no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.hero .title {
+  font-size: 4.3rem;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.hero .sub-title {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  color: #B8C1C6;
+}
+
+.hero .info {
+  width: 550px;
+}
+
+.text__box {
+  color: #fff;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 500px;
+  padding-left: 80px;
+  width: 100%;
+}
+
+.text__box button {
+    background: #C03B4D;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: 0;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.6);
+}
+
+.text__box button:hover {
+    background: #ff556e;
+}
+
+section {
+  padding: 100px 0;
+}
+
+section h4 {
+  color: #C03B4D;
+  font-size: 18px;
+  margin: 0;
+}
+
+section h3 {
+  font-size: 40px;
+  margin: 5px 0 25px 0;
+  font-weight: 600;
+  color: #3a3a3a;
+}
+
+section h3 + p {
+  margin-bottom: 3rem;
+}
+
+a.btn__link  {
+  font-size: 0.9rem;
+  background: #c03b4d;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+a.btn__link:hover {
+  color: #fff;
+}
+
+.work__section {
+  background: #111230;
+}
+
+.work__section .card {
+  border: 0px;
+  margin-bottom: 15px;
+}
+
+.work__section .card-body {
+  padding: 15px 15px;
+  color: #111230;
+}
+
+.service__list{
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.service__list img {
+  width: 100%;
+}
+
+.service__title {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0;
+  left: 0;
+  padding: 8px 20px;
+  background: rgba(192,59,77, 0.7);
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #fff;
+  width: 100%;
+}
+
+.contact__section .list-unstyled i {
+  color: #c03b4d;
+}
+
+footer {
+  color: #fff;
+  background: #111230;
+  padding-top: 5rem;
+}
+
+footer .logo {
+  max-width: 200px;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #c03b4d;
+  text-decoration: none;
+}
+
+.footer__copyright {
+  border-top: 1px solid #c03b4d;
+}
+
+@media (max-width:767px) {
+  .hero .title {
+    font-size: 3.3rem;
+  }
+
+  section {
+    padding: 50px 0;
+  }
+
+  section h4 {
+    font-size: 14px;
+  }
+
+  footer {
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width:500px) {
+  .hero {
+    text-align: center;
+  }
+
+  .hero .text__box {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  section h3 {
+    font-size: 30px;
+    margin: 5px 0 15px 0;
+  }
+
+  .hero .title {
+    font-size: 2.2rem;
+  }
+
+  .hero .sub-title {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+}
